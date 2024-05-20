@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signin Page</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+
+        header {
+            width: 100%;
+            background-color: #4CAF50;
+            padding: 20px 0;
+            text-align: center;
+            color: white;
+            position: fixed;
+            top: 0;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        .center-box {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: white;
+            padding: 40px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+            width: 300px; /* Adjust the width as needed */
+        }
+
+        button {
+            width: 100%;
+            margin: 10px 0;
+            padding: 15px 0;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        .help-header {
+            width: 100%;
+            text-align: left;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Signin Page for the heritage and culture.in</h1>
+    </header>
+    <div class="center-box">
+        <h2>SignIn here!</h2>
+        <button onclick="location.href='user/'">SignIn as a user</button>
+        <button onclick="location.href='profile/'">SignIn as a contributor</button>
+        <div class="help-header">
+            <h3>Need Help?</h3>
+        </div>
+    </div>
+</body>
+</html>

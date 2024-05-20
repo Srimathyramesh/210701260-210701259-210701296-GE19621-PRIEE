@@ -1,0 +1,159 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Showcase</title>
+    <link rel="stylesheet" href="{% static 'post.css' %}">
+</head>
+<body>
+    <header>
+        <h1>Blog Showcase</h1>
+    </header>
+    <section class="hero">
+        <h2>Welcome to Our Blog Showcase</h2>
+        <p>Discover the latest blogs from our talented authors.</p>
+        <button>Start Reading</button>
+    </section>
+    <div class="container">
+        <section class="featured-blogs">
+            <h2 class="section-title">Featured Blogs</h2>
+            <div class="blogs">
+                <div class="blog">
+                    <img src="{% static 'blog1.jpg' %}" alt="Blog 1">
+                    <h3>Findings of Keezhadi</h3>
+                    <p>The blogs gives you insights on the various findings in Keezhadi</p>
+                    <p><strong>Author:</strong> Amarnath Ramakrishnan M.A,M.Phil</p>
+                    <p><a href="#">Read More</a></p>
+                </div>
+                <div class="blog">
+                    <img src="{% static 'blog2.jpg' %}" alt="Blog 2">
+                    <h3>Marvel Architecture of Tanjore Temple</h3>
+                    <p>Built on early 11th century still konown for its excellent architecure</p>
+                    <p><strong>Author:</strong> Subramaniyan Ph.D</p>
+                    <p><a href="#">Read More</a></p>
+                </div>
+                <div class="blog">
+                    <img src="{% static 'blog3p.jpg' %}" alt="Blog 3">
+                    <h3>Dance of TamilNadu</h3>
+                    <p>An old dance type of tamilnadu which is not known by many now</p>
+                    <p><strong>Author:</strong> Indrani M.A</p>
+                    <p><a href="#">Read More</a></p>
+                </div>
+            </div>
+        </section>
+        <section class="blog-categories">
+            <h2 class="section-title">Blog Categories</h2>
+            <div class="categories">
+                <div class="category">
+                    <img src="category1.jpg" alt="Category 1">
+                    <h3>Technology</h3>
+                </div>
+                <div class="category">
+                    <img src="category2.jpg" alt="Category 2">
+                    <h3>Lifestyle</h3>
+                </div>
+                <div class="category">
+                    <img src="category3.jpg" alt="Category 3">
+                    <h3>Travel</h3>
+                </div>
+            </div>
+        </section>
+        <section class="latest-blogs">
+            <h2 class="section-title">Latest Blogs</h2>
+            <div class="blogs">
+                <div class="blog">
+                    <img src="blog4.jpg" alt="Blog 4">
+                    <h3>Blog Title 4</h3>
+                    <p>Short excerpt of the blog post...</p>
+                    <p><strong>Author:</strong> Alex Johnson</p>
+                    <p><a href="#">Read More</a></p>
+                </div>
+                <div class="blog">
+                    <img src="blog5.jpg" alt="Blog 5">
+                    <h3>Blog Title 5</h3>
+                    <p>Short excerpt of the blog post...</p>
+                    <p><strong>Author:</strong> Samantha Green</p>
+                    <p><a href="#">Read More</a></p>
+                </div>
+                <div class="blog">
+                    <img src="blog6.jpg" alt="Blog 6">
+                    <h3>Blog Title 6</h3>
+                    <p>Short excerpt of the blog post...</p>
+                    <p><strong>Author:</strong> Michael Lee</p>
+                    <p><a href="#">Read More</a></p>
+                </div>
+            </div>
+        </section>
+        <section class="popular-authors">
+            <h2 class="section-title">Popular Authors</h2>
+            <div class="authors">
+                <div class="author">
+                    <img src="author1.jpg" alt="Author 1">
+                    <h3>Jane Doe</h3>
+                    <p>Short bio of the author...</p>
+                </div>
+                <div class="author">
+                    <img src="author2.jpg" alt="Author 2">
+                    <h3>John Smith</h3>
+                    <p>Short bio of the author...</p>
+                </div>
+                <div class="author">
+                    <img src="author3.jpg" alt="Author 3">
+                    <h3>Emily Brown</h3>
+                    <p>Short bio of the author...</p>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer>
+            <div class="container">
+                <div class="col-12 text-center border-bottom border-grey mb-4 pb-4">
+                    <p class="mb-0 font-secondary font-16 text-grey">
+                    Toll Free No: <a href="tel:1800-425-31111" class="text-grey text-decoration-none">1800-425-31111</a> (Within India only) Department of Tourism, Government of Tamil Nadu, #2, Wallajah Road, Chennai - 600002<br>
+                        Fax: +044 25333385, 25333567 | Email: <a href="mailto:tourism@tn.gov.in" class="text-grey text-decoration-none">tourism@tn.gov.in</a>
+                    </p>
+                </div>
+                <div class="row">
+                    <div class="col-12 text-center mb-4">
+                        <p class="mb-0 font-secondary font-14 text-grey">
+                        All rights reserved © Tamil Nadu Tourism 2024. <a href="https://www.tamilnadutourism.tn.gov.in/copyright" class="text-grey text-decoration-none hover-color-theme">Copyright</a> | <a href="https://www.tamilnadutourism.tn.gov.in/terms-of-use" class="text-grey text-decoration-none hover-color-theme">Terms of Use</a> | <a href="https://www.tamilnadutourism.tn.gov.in/cookie-policy" class="text-grey text-decoration-none hover-color-theme">Cookie Policy</a> |
+                            <a href="https://www.tamilnadutourism.tn.gov.in/contact" class="text-grey text-decoration-none hover-color-theme">Contact Us</a> <br>
+                            Developed &amp; Maintained by Invis Private Limited.
+                        </p>
+                    </div>
+                    <div class="col-12 text-center">
+                        <ul class="p-0 m-0 social-links">
+                            <li class="list-inline-item">
+                                <a href="https://www.facebook.com/tntourismoffcl/" target="_blank" class="facebook">
+                                    
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://www.instagram.com/tntourismoffcl/" target="_blank" class="instagram">
+                                    
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://twitter.com/tntourismoffcl" target="_blank" class="twitter">
+                                    
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://www.youtube.com/c/TamilnaduTourismOnline" target="_blank" class="youtube">
+                                    
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://www.linkedin.com/company/tamil-nadu-tourism/" target="_blank" class="linkedin">
+                                    
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+</body>
+</html>
